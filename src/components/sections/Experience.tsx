@@ -189,7 +189,7 @@ export default function Experience() {
                   </div>
                 </motion.div>
               </div>
-              );
+            );
             })}
           </div>
         </div>

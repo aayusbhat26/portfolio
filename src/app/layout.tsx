@@ -33,8 +33,8 @@ export default function RootLayout({
         <div className="fixed inset-0 pointer-events-none z-[-1] bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-[0.02]" />
         <div className="fixed inset-0 pointer-events-none z-[-1] opacity-[0.03]" style={{ backgroundImage: 'linear-gradient(to right, #ffffff 1px, transparent 1px), linear-gradient(to bottom, #ffffff 1px, transparent 1px)', backgroundSize: '4rem 4rem' }} />
         
+        <Preloader />
         <SmoothScroll>
-          <Preloader />
           <CustomCursor />
           <Navbar />
           {children}
